@@ -1,0 +1,1 @@
+.header-content{width:352px;left:calc(50% - 176px)}.header-img .header-logo{top:calc(50% - 176px)}.header-subtitle{top:calc(calc(50% + 352px) - 176px)}@media (min-width:640px) and (orientation:landscape){.header-content{width:289px;left:calc(50% - 144px)}.header-img .header-logo{top:calc(50% - 144px)}.header-subtitle{top:calc(calc(50% + 288px) - 144px)}}
