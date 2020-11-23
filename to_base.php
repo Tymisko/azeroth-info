@@ -1,9 +1,9 @@
 <?php
 // Enter your Host, username, password, database below.
-$server = "ec2-54-228-250-82.eu-west-1.compute.amazonaws.com";
-$base_login = "ksguijihqgxdaq";
-$base_password = "4a8fa7e8c0560ef05e6d5f409302e02aa7bb2e129b2883e807d8c3b8cf90d405";
-$base = "d6o80eb5v0jt2b";
+$server = "remotemysql.com:3306";
+$base_login = "95sEGQVbzi";
+$base_password = "pbiOtTOm0V";
+$base = "95sEGQVbzi";
 
 $to_base = mysqli_connect($server,$base_login,$base_password,$base);
 // Check connection
