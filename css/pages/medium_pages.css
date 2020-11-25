@@ -39,7 +39,6 @@ nav {
             width: 10vw;
         }
     }
-
 #menu-input-show_others:hover + .menu-links_others {
     height: 26vh;
 }
@@ -76,7 +75,7 @@ nav {
 .main-section-displayed h2 {
     padding-left: 3vw;
     text-align: left;
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
 .main-section-displayed img {
@@ -90,13 +89,14 @@ nav {
 }
 
 .main-section-displayed .line {
+    height: 0.5vh;
     width: 50%;
     margin: auto 45% auto 5%;
 }
 
 .section-article-displayed h3 {
     text-align: left;
-    font-size: 4vw;
+    font-size: 2vw;
 
 }
 
@@ -112,13 +112,13 @@ nav {
 }
 
 .main-section-others h2 {
-    font-size: 4vw;
+    font-size: 2.5vw;
     padding-right: 1vw;
 }
 
 .main-section-others .line {
     width: 50%;
-    height: 0.5vw;
+    height: 0.2vw;
     margin: auto 25% auto 25%;
 }
 

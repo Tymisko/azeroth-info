@@ -53,6 +53,12 @@
     .section-article-displayed iframe {
         border: 0.5vw solid black;
     }
+    #menu-input-show_others:hover + .menu-links_others {
+        height: 21vh;
+    }
+    .menu-links_others:hover {
+        height: 21vh;
+    }
 </style>
 <!-- SCRIPTS -->
 <script src="https://kit.fontawesome.com/af9a5761ff.js" crossorigin="anonymous"></script>

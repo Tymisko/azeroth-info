@@ -55,31 +55,40 @@ nav {
 #menu-input-show_others:hover + .menu-links_others {
     height: 26vh;
 }
+
 .menu-links_others:hover {
     height: 26vh;
 }
+
 .menu-login{
     right: 0vw;
 }
+
 .menu-login-logged{
     right: 0vw;
 }
+
 .menu-logo {
     left: 1vw;
 }
+
 .menu-sign-up {
     top: 12%;
 }
+
 .menu-links {
     position: absolute;
     left: 13vw;
 }
+
 .menu-links li {
     width: 13vw;
 }
+
 /* MAIN */
 .section-header {
     text-align: left;
+    font-size: 5vw;
 }
 .col-33 {
     width: 33.3%;
@@ -104,7 +113,8 @@ section {
 }
 
 .first-section .middle h3 {
-    font-size: 2.5vw;
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 .first-section .middle img {
     max-height: 20vh;
@@ -112,6 +122,7 @@ section {
 
 .first-section .middle p {
     font-size: 1.5vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 
 .first-section .middle .section-article {
@@ -120,12 +131,13 @@ section {
 
 .first-section .left h3, 
 .first-section .right h3 {
-    font-size: 3.5vw;
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 
 .first-section .left p ,
 .first-section .right p {
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 
 
@@ -138,11 +150,6 @@ section {
 
 .second-section .featured {
 display: inline-block;
-}
-
-.featured a {
-    width: 21%;
-    min-height:
 }
 
 .featured h3 {
@@ -164,7 +171,7 @@ display: inline-block;
     margin-bottom: 2vh;
 }
 .third-section .section-article h3 {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 /* FOOTER */
@@ -208,6 +215,7 @@ footer{
 
 .footer-left-contact p {
     font-size: 2vw;
+
 }
 
 .footer-left-links{
