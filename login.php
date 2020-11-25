@@ -28,10 +28,11 @@
 <meta name="msapplication-TileImage" content="/favicon-144.png">
 <meta name="msapplication-config" content="/browserconfig.xml">
 <!-- OG TAGS -->
+<!-- OG TAGS -->
 <meta property="og:title" content="Logowanie - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:description" content="News From Azeroth!" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
 <link rel="stylesheet" href="css/register.css">
 <link rel="stylesheet" href="css/fonts.css">
