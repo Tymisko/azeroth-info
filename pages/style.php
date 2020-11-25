@@ -91,7 +91,7 @@
                 <h3>Jyzos, The Warrior</h3>
                 <img src="../img/pages/style/Jyzos.png" alt="Jyzos"><br>
                 <h3>Pando - Rogue</h3>
-                <img src="../img/pages/style/Pando.png" alt="Pando"><br>
+                <img src="../img/pages/style/pando.png" alt="Pando"><br>
             </article>
         </section>
         <!-- OTHERS -->
