@@ -31,17 +31,25 @@
 <!-- OG TAGS -->
 <meta property="og:title" content="Health - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
     .menu-link-health {display: none!important;}
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/health/5fc00af7e51c84551a983bf428efbd2f.jpg');
+    }
+
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/health/catedral.jpg');
+    }
+
+    .main-section-others #articleOthers3 .article {
+        background-image: url('../img/pages/health/hotsources.jpg');
+    }
 </style>
 <!-- SCRIPTS -->
 <script src="https://kit.fontawesome.com/af9a5761ff.js" crossorigin="anonymous"></script>
@@ -63,19 +71,20 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Tauren's completely new skin ointment!</h3>
+                <img src="../img/pages/health/5fc00af7e51c84551a983bf428efbd2f.jpg" alt="Tauren's ointment">
+                <p>The Taurens have invented a completely new ointment that can rejuvenate your skin in just 10,000 years. Buy it <b>NOW</b> on Action House!</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>Health Article</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>The Cathedral of Light</h3>
+                <img src="../img/pages/health/catedral.jpg" alt="Cathedral">
+                <p>Only The Cathedral of Light in Stormwind City has the best light treatment in the whole stormwind competitive prices come today!</p>
+                <p>Written by <i>Maciej Odelski</i></p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Relaxation in hot springs in Pandaria</h3>
+                <img src="../img/pages/health/hotsources.jpg" alt="Hot Springs">
+                <p>Pandaria's hot springs are the favorite spots of any adventurer. If your journey draws you to Pandaria, don't forget to visit them.</p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -87,7 +96,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>Article Header</h3>
+                    <h3>Tauren's ointment!</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -95,7 +104,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Health Article</h3>
+                        <h3>The Cathedral of Light </h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -103,7 +112,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Pandaria's hot springs</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

@@ -31,17 +31,25 @@
 <!-- OG TAGS -->
 <meta property="og:title" content="Travel - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
-    .menu-link-travel {display: none!important;}+
+    .menu-link-travel {display: none!important;}
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/travel/mulgore.jpg');
+    }
+
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/travel/stormheim.jpg');
+    }
+
+    .main-section-others #articleOthers3 .article {
+        background-image: url('../img/pages/travel/nagrand-dreanor.jpg');
+    }
 </style>
 <!-- SCRIPTS -->
 <script src="https://kit.fontawesome.com/af9a5761ff.js" crossorigin="anonymous"></script>
@@ -63,19 +71,19 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Mulgore</h3>
+                <img src="../img/pages/travel/mulgore.jpg" alt="Mulgore">
+                <p>A land of windswept mesas and grassy plains, Mulgore is the tauren's ancestral homeland. Centaur often send raiding parties into Mulgore, and the tauren, now with the help of their Horde allies, beat them back. Tauren are naturally a nomadic people, and their tent cities are scattered across the landscape and change with the seasons and the weather. Now that they are members of the Horde, the tauren have constructed several permanent settlements, including fortified Dalsh-Beran and their capital of Thunder Bluff.</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Stormheim</h3>
+                <img src="../img/pages/travel/stormheim.jpg" alt="Stormheim">
+                <p>The easternmost region of the Broken Isles archipelago, situated in the shadow of Highmountain to the west and the ancient region of Suramar to the southwest. Stormheim is notably home to a large population of vrykul who left Northrend many ages ago in search of their holy land. The region's rugged, uneven landscape has since become something of a cradle for vrykul society, which is centered around its long fjords and steep ravines</p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Travel Article</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Drenor's Nagrand</h3>
+                <img src="../img/pages/travel/nagrand-dreanor.jpg" alt="Nagrand">
+                <p>Nagrand — orcish for "Land of Winds" — was formerly the homeland of the Frostwolf clan, and the meeting grounds of the orcish people, where the Kosh'harg celebrations were held twice every year. The clans would assemble at the base of their sacred mountain, Oshu'gun, and give thanks to the spirits.</p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -87,7 +95,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>Article Header</h3>
+                    <h3>Mulgore</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -95,7 +103,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Stormheim</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -103,7 +111,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Travel Article</h3>
+                        <h3>Nagrand</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

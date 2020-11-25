@@ -31,25 +31,24 @@
 <!-- OG TAGS -->
 <meta property="og:title" content="Weather - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
     .menu-link-weather {display: none!important;}
-    .header-video{
-        display: none;
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/weather/northrend.jpg');
     }
-    .header-img{display: block;
-        background-image: url("../img/header/WoW-lightning.jpg");
+
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/weather/tanaris.jpg');
     }
-    .main-header-line {
-        width: 20vw;
+
+    .main-section-others #articleOthers3 .article {
+        background-image: url("../img/pages/weather/vashj'ir.jpg");
     }
 </style>
 <!-- SCRIPTS -->
@@ -72,19 +71,20 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>Weather Article</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Northrend snow</h3>
+                <img src="../img/pages/weather/northrend.jpg" alt="Northrend">
+                <p>As you have seen in the Northrend snows won't stop! It's great time to take your skis and go there! Nobody knows when it will stop snowing. Hurry up, don't hesitate!</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Tanaris heats</h3>
+                <img src="../img/pages/weather/tanaris.jpg" alt="">
+                <p>On tanaris the sun is shining in every corner! It's great time to go there to sunbathe on the beach and go swimming in the sea. Don't forget your tanning oil.</p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Floods in vashj'ir!</h3>
+                <img src="../img/pages/weather/vashj'ir.jpg" alt="">
+                <p>Water, water, water.. citizens of Vashj'ir can't stop these floods. If you want help them here is a bank account number, don't forget to write into title "For Azeroth Info Team for game time".</p>
+            <p>Thank you on behalf of Vashj'ir Citizens.</p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -96,7 +96,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>Weather Article</h3>
+                    <h3>Snowing</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -104,7 +104,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Heats</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -112,7 +112,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Floods</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

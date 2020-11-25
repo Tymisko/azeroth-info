@@ -31,17 +31,25 @@
 <!-- OG TAGS -->
 <meta property="og:title" content="Business - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
     .menu-link-business {display: none!important;}
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/business/supplies.jpg');
+    }
+
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/business/more.jpg');
+    }
+
+    .main-section-others #articleOthers3 .article {
+        background-image: url('../img/pages/business/deathwing.jpg');
+    }
 </style>
 <!-- SCRIPTS -->
 <script src="https://kit.fontawesome.com/af9a5761ff.js" crossorigin="anonymous"></script>
@@ -63,19 +71,19 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>Business Article</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Anduin bought new supplies for the coming war</h3>
+                <img src="../img/pages/business/supplies.jpg" alt="Chest with supplies">
+                <p>Due to the war between the alliance and the horde, Anduin decided to equip his troops with better equipment, especially since Sylvanas Windrunner uses his plagues of the undead.</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>More supplies were sent to Northrend as there was an increase in undead activity</h3>
+                <img src="../img/pages/business/more.jpg" alt="Undead Army">
+                <p>Northrend struggles with the Lich King's undead plague. Alliance and Horde forces decided to focus their forces on this continent.</p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>One million gold was allocated for the restoration of Stormwind after the attack of Deathwing</h3>
+                <img src="../img/pages/business/deathwing.jpg" alt="Deathwing">
+                <p>Deathwing's madness has destroyed many valuable places for Azeroth, including Stormwind City. Alliance authorities decided to financially support the reconstruction of the capital.</p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -87,7 +95,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>Article Header</h3>
+                    <h3>New Alliance equipment for the coming war</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -95,7 +103,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Supplies were sent to Northrend</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -103,7 +111,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>One million for the Stormwind's restoration</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

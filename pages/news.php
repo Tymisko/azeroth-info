@@ -30,18 +30,25 @@
 <meta name="msapplication-config" content="/browserconfig.xml">
 <!-- OG TAGS -->
 <meta property="og:title" content="News - Azeroth Info" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
     .menu-link-news {display: none!important;}
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/news/5IDOOPM2F5SN1599022991558.jpg');
+    }
+
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/news/sylvanas-windrunner-bolvar-fordragon-bow-world-of-warcraft-s.jpg');
+    }
+
+    .main-section-others #articleOthers3 .article {
+        background-image: url('../img/pages/news/WoW-Shadowlands-Surprise-Cinematic.jpg');
+    }
 </style>
 <!-- SCRIPTS -->
 <script src="https://kit.fontawesome.com/af9a5761ff.js" crossorigin="anonymous"></script>
@@ -63,19 +70,19 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>News Article</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Sylvanas Windrunner has opened the gate to the Shadowlands!</h3>
+                <img src="../img/pages/news/5IDOOPM2F5SN1599022991558.jpg" alt="Shadowlans">
+                <p>After <strong>Duel of Honor</strong> called Mak'gora between Sylvanas Windrunner and Saurfang Varok, Sylvanas Windrunner flew away, leaving Saurfang dead. Nobody knew where she went. Thanks to special reporter Pando we know that she entered to Icerown Citadel, and defeated Bolvar Fordragon to destroy Crown called <em>"Helm of Domination"</em>. These actions brought to open the gates to Shadowlands.</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Bolvar Fordragon and his army has been defeated by Sylvanas</h3>
+                <img src="../img/pages/news/sylvanas-windrunner-bolvar-fordragon-bow-world-of-warcraft-s.jpg" alt="Lich King vs Sylvanas">
+                <p>Sylvanas Windrunner has that much power that she was able to defeat Lich King and his army. Probably she gets her powers from the world of dead. Some say that the source of her power are souls of burnt victims of Telldrasil</p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Jailer – Ruler of The Maw</h3>
+                <img src="../img/pages/news/WoW-Shadowlands-Surprise-Cinematic.jpg" alt="Jailer">
+                <p>Zovaal better known as the Jailer, is one of the Eternal Ones of the Shadowlands. He rules the terrible realm known as the Maw. Very little is known about him, since nothing has ever escaped the Maw, and no one has ever seen the Jailer himself or lived to tell the tale.</p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -87,7 +94,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>News Article</h3>
+                    <h3>Sylvanas has opened Shadowlands!</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -95,7 +102,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Bolvar Fordragon has been defeated</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -103,7 +110,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>Ruler of The Maw</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

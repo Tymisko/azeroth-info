@@ -31,20 +31,22 @@
 <!-- OG TAGS -->
 <meta property="og:title" content="World - Azeroth Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
-<link rel="stylesheet" href="../css/pages/animations_pages.css">
 <link rel="stylesheet" href="../css/fonts.css">
 <link rel="stylesheet" href="../css/pages/main_pages.css">
 <link rel="stylesheet" media="screen and (min-width:576px)" href="../css/pages/small_pages.css">
 <link rel="stylesheet" media="screen and (min-width:768px)" href="../css/pages/medium_pages.css">
-<link rel="stylesheet" media="screen and (min-width:992px)" href="../css/pages/large_pages.css">
 <style>
     .menu-link-world {display: none!important;}
-    .header-img {
-        display: block;
-        background-image: url("../img/header/world.jpg");
+    .main-section-others #articleOthers1 .article {
+        background-image: url('../img/pages/world/DxnKQ-sWkAENJiq.png');
+    }
+    .main-section-others #articleOthers2 .article {
+        background-image: url('../img/pages/world/unnamed.jpg');
+    }
+    .main-section-others #articleOthers3 .article {
+        background-image: url('../img/pages/world/c821fb8029b48230c9118304d419cf3f49f054b1_hq.jpg');
     }
 </style>
 <!-- SCRIPTS -->
@@ -68,19 +70,20 @@
                 <div class="line"></div>
             </div>
             <article id="article1" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1024/800" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>End of Occupied Azeroth!</h3>
+                <img src="../img/pages/world/DxnKQ-sWkAENJiq.png" alt="Sargeras">
+                <p>After a long battle, the heroes of Azeroth manage to defeat Argus with the help of the pantheon. Thanks to its essence, the pantheon is supposed to imprison Sargeras once and for all. Illidan chooses to be his guardian as he believes that every decision he made led to it. Before Sargeras was imprisoned, however, he summoned his enormous sword and stabbed Azeroth with it. As a result, the entire land of Silithus was destroyed, and a mysterious mineral called Azerite began to appear on the surface of the entire planet.</p>
             </article>
             <article id="article2" class="section-article-displayed">
-                <h3>World Article</h3>
-                <img src="https://unsplash.it/1280/720" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>The Battle for Azeroth has been resolved!</h3>
+                <img src="../img/pages/world/unnamed.jpg" alt="Battle For Azeroth">
+                <p>The conflict between the Alliance and the Horde after the Burning Legion's third invasion of Azeroth. After the Mad Titan Sargeras injured Azeroth, a mysterious mineral known as Azerite began to appear on the planet's surface. Both factions noticed its extraordinary properties. King of the Alliance, Anduin Wrynn wanted to use Azeritus for healing and protection purposes, but Sylvanas Windrunner noted that Azerite could be used as a powerful weapon.</p>
             </article>
             <article id="article3" class="section-article-displayed">
-                <h3>Article Header</h3>
-                <img src="https://unsplash.it/1920/1080" alt="">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora fugiat cum delectus minima nam molestias nulla quidem quam expedita beatae.</p>
+                <h3>Pandaria - a new continent!</h3>
+                <img src="../img/pages/world/c821fb8029b48230c9118304d419cf3f49f054b1_hq.jpg" alt="Pandaria">
+                <p>We've got an epidemic! Many pandarens think that Pandaria is a floating turtle! Are they stoopid? NO! They are turtleheads. They believe that Wandering Isle is sitting on a turtle's shell called Shen-zin Su which is swimming in a inifinite sea. Trolls thinks that Pandarens are smoking some good herbs or they drank with dwarfs again.</p>
+                <p style="font-size:1vw;">Written by <i>Kamil Fudala</i></p>
             </article>
         </section>
         <!-- OTHERS -->
@@ -92,7 +95,7 @@
             <article id="articleOthers1" class="section-article-others">
             <div class="article">
                 <div class="article-text">
-                    <h3>Article Header</h3>
+                    <h3>End of Occupied!</h3>
                 </div>
                 <div class="hero-bg"></div>
             </div>
@@ -100,7 +103,7 @@
             <article id="articleOthers2" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>World Article</h3>
+                        <h3>Battle has been resolved!</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>
@@ -108,7 +111,7 @@
             <article id="articleOthers3" class="section-article-others">
                 <div class="article">
                     <div class="article-text">
-                        <h3>Article Header</h3>
+                        <h3>A new continent!</h3>
                     </div>
                     <div class="hero-bg"></div>
                 </div>

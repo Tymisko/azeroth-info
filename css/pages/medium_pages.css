@@ -1,1 +1,250 @@
-.header-img{display:none}.header-text{font-size:4vw;opacity:.5;top:50%;left:50%;transform:translate(-50%,-50%);z-index:1}nav{position:sticky;top:0}.menu-nav--mobile{display:none}.menu-nav--desktop{display:block}@media (min-width:1024px){.menu-logo{left:2vw}.menu-sign-up{top:15%}.menu-links{left:20vw}.menu-links li{width:10vw}}#menu-input-show_others:hover+.menu-links_others{height:26vh}.menu-links_others:hover{height:26vh}.menu-login{right:0vw}.menu-logo{left:1vw}.menu-sign-up{top:12%}.menu-links{position:absolute;left:13vw}.menu-links li{width:13vw}.hero-bg{border-radius:1.3vw}.main-section-displayed{width:65%;float:left}.main-section-displayed h2{padding-left:3vw;text-align:left;font-size:10vw}.main-section-displayed img{border:.5vw solid gold;max-height:60vh}.main-section-displayed p{padding:1vw;font-size:2vw}.main-section-displayed .line{width:50%;margin:auto 45% auto 5%}.main-section-others{width:32.5%;float:left}.main-section-others{background-color:#444;border-top-right-radius:2vw;border-bottom-left-radius:2vw}.main-section-others h2{font-size:4vw;padding-right:1vw}.main-section-others .line{width:50%;height:.5vw;margin:auto 25% auto 25%}.main-section-others h3{font-size:3vw}.article{border:.3vw solid gold;border-radius:1.5vw}.main-section-others .article:hover{cursor:pointer}footer{display:flex;background-image:url(../../img/footer/desktop-orc-background.jpg);height:100%}.footer-left{width:50%;background:none}.footer-right{width:50%;background:none}.footer-left .footer-header{font-size:5vw;text-align:left;margin-left:2vw;margin-bottom:0}.footer-left-description{font-size:2.5vw;text-align:left}.footer-left-description span{font-size:2vw}.footer-left-contact{text-align:left;margin-left:3vw}.footer-left-contact p i{padding-top:1vw}.footer-left-contact p{font-size:2vw}.footer-left-links{margin-left:0;text-align:left;margin-left:2vw}.footer-left-link i{font-size:5vw;padding:1vw;padding-bottom:2vw;transition:color .3s,transform .3s}.footer-left-link i:hover{transform:scale(1.2);color:#fff}.footer-right .footer-header{font-size:5vw;text-align:right;margin-right:2vw}#footer-form-contact ul{margin-left:auto;margin-right:auto;width:70%}#footer-form-contact li{padding:1vh;list-style:none;width:100%}#footer-form-contact .footer-form-element{border:.4vw solid #d1ad22;width:100%;outline:none;padding:1vh;color:#fff}.footer-form-element::placeholder{color:#d1ad22;padding:1vh}#message{resize:none}#footer-form-button{margin-left:25%;margin-right:25%;width:50%;font-size:4vh;font-family:'Friz Quadrata Std bold';color:#d1ad22;text-shadow:.2vw .2vw .2vw #000;text-align:center;-webkit-text-stroke-width:.1vw;-webkit-text-stroke-color:#000;background-image:url(../../img/wowButton.png);background-repeat:no-repeat;background-size:100% 100%;background-position:center;padding:1vh}
+/* screen and (min-width:768px) */
+
+/* HEADER */
+.header-img {
+    display: none;
+}
+.header-text{
+    font-size: 4vw;
+    opacity: 0.5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+/* NAVBAR */
+nav {
+    position: sticky;
+    top: 0;
+  }
+  
+.menu-nav--mobile {
+    display: none;
+}
+.menu-nav--desktop {
+    display: block;
+}
+
+@media (min-width:1024px) {
+        .menu-logo {
+            left: 2vw;
+        }
+        .menu-sign-up {
+            top: 15%;
+        }
+        .menu-links {
+            left: 20vw;
+        }
+        .menu-links li {
+            width: 10vw;
+        }
+    }
+
+#menu-input-show_others:hover + .menu-links_others {
+    height: 26vh;
+}
+.menu-links_others:hover {
+    height: 26vh;
+}
+.menu-login{
+    right: 0vw;
+}
+.menu-logo {
+    left: 1vw;
+}
+.menu-sign-up {
+    top: 12%;
+}
+.menu-links {
+    position: absolute;
+    left: 13vw;
+}
+.menu-links li {
+    width: 13vw;
+}
+/* MAIN */
+
+.hero-bg {
+    border-radius: 1.3vw;
+}
+
+.main-section-displayed {
+    width: 65%;
+    float: left;
+}
+
+.main-section-displayed h2 {
+    padding-left: 3vw;
+    text-align: left;
+    font-size: 10vw;
+}
+
+.main-section-displayed img {
+    border: 0.5vw solid gold;
+    max-height: 60vh;
+}
+
+.main-section-displayed p {
+    padding: 1vw;
+    font-size: 2vw;
+}
+
+.main-section-displayed .line {
+    width: 50%;
+    margin: auto 45% auto 5%;
+}
+
+.section-article-displayed h3 {
+    text-align: left;
+    font-size: 4vw;
+
+}
+
+.main-section-others {
+    width: 32.5%;
+    float: left;
+}
+
+.main-section-others {
+    background-color: #444;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+
+.main-section-others h2 {
+    font-size: 4vw;
+    padding-right: 1vw;
+}
+
+.main-section-others .line {
+    width: 50%;
+    height: 0.5vw;
+    margin: auto 25% auto 25%;
+}
+
+.main-section-others h3 {
+    font-size: 1.7vw;
+}
+  
+.article {
+    border: 0.3vw solid gold;
+    border-radius: 1.5vw;
+}
+
+.main-section-others .article:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    background-image: url("../../img/footer/desktop-orc-background.jpg");
+    height: 100%;
+}
+
+.footer-left {
+    width: 50%;
+    background: none;
+}
+
+.footer-right{
+    width: 50%;
+    background: none;
+}
+
+.footer-left .footer-header {
+    font-size: 5vw;
+    text-align: left;
+    margin-left: 2vw;
+    margin-bottom: 0;
+}
+.footer-left-description {
+    font-size: 2.5vw;
+    text-align: left;
+}
+.footer-left-description span {
+    font-size: 2vw;
+}
+.footer-left-contact {
+    text-align: left;
+    margin-left: 3vw;
+}
+
+.footer-left-contact p i {
+    padding-top: 1vw;
+}
+
+.footer-left-contact p {
+    font-size: 2vw;
+}
+
+.footer-left-links{
+    margin-left: 0px;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.footer-left-link i {
+    font-size: 5vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+    transition: color .3s, transform .3s;
+}
+
+.footer-left-link i:hover {
+    transform: scale(1.2);
+    color: white;
+
+}
+
+.footer-right .footer-header {
+    font-size: 5vw;
+    text-align: right;
+    margin-right: 2vw;
+}
+#footer-form-contact ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  #footer-form-contact li {
+    padding: 1vh;
+    list-style: none;
+    width: 100%;
+  }
+  #footer-form-contact .footer-form-element {
+    border: 0.4vw solid  #d1ad22;
+    width: 100%;
+    outline: none;
+    padding: 1vh;
+    color:white;
+  }
+
+  .footer-form-element::placeholder {
+    color:#d1ad22;
+    padding: 1vh;
+  }
+  #message {
+    resize: none;
+  }
+  #footer-form-button {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    font-size: 4vh;
+    font-family: 'Friz Quadrata Std bold';
+    color:  #d1ad22;
+    text-shadow: 0.2vw 0.2vw 0.2vw #000;
+    text-align: center;
+    -webkit-text-stroke-width: 0.1vw;
+    -webkit-text-stroke-color: black;
+    background-image: url("../../img/wowButton.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 1vh;
+  }
+

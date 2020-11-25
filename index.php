@@ -32,8 +32,7 @@
 <meta property="og:title" content="Azeroth Info" />
 <meta property="og:type" content="article" />
 <meta property="og:description" content="News From Azeroth!" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="../img/logo.png" />
 <!-- STYLES -->
 <link rel="stylesheet" href="css/main-site/animations.css">
 <link rel="stylesheet" href="css/fonts.css">
@@ -130,28 +129,30 @@
             </div>
             <div class="col-33 left">
                 <a href="pages/business.php?article=1"><article class="section-article">
-                    <h3>Business Article</h3>
-                    <img src="https://unsplash.it/600/400" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, magnam.</p>
+                    <h3>Anduin bought new supplies for the coming war</h3>
+                    <img src="img/pages/business/supplies.jpg" alt="Supplies">
+                    <p>Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade. As this age-old conflict reignites, join your allies and champion your faction's cause—Azeroth's future will be forged in the fires of war.</p>
+                    <p>Due to the war between the alliance and the horde, Anduin decided to...</p>
                 </article></a>
             </div>
             <div class="col-33 middle">
                 <a href="pages/health.php?article=2"><article class="section-article">
-                    <h3>Health Article</h3>
-                    <img src="https://unsplash.it/600/400" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, magnam.</p>
+                    <h3>The Cathedral of Light</h3>
+                    <img src="img/pages/health/catedral.jpg" alt="The Cathedral of Light">
+                    <p>Only The Cathedral of Light in Stormwind City has...</p>
                 </article></a>
                 <a href="pages/music.php?article=3"><article class="section-article">
-                    <h3>Music Article</h3>
-                    <img src="https://unsplash.it/600/400" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, magnam.</p>
+                    <h3>Nightsong Extended</h3>
+                    <img src="img/pages/music/nightelf.jpg" alt="Nightsong">
+                    <p>World of Warcraft - Nightsong - introduced in Cataclysm.<br>Vocals done by Laurie Ann Haus.<br>Composer: Neal Acree</p>
                 </article></a>
             </div>
             <div class="col-33 right">
-                <a href="pages/news.php?article=1"><article class="section-article">
-                    <h3>News Article</h3>
-                    <img src="https://unsplash.it/600/400" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, magnam.</p>
+                <a href="pages/news.php?article=3"><article class="section-article">
+                    <h3>Ruler of The Maw</h3>
+                    <img src="img/pages/news/WoW-Shadowlands-Surprise-Cinematic.jpg" alt="Jailor">
+                    <p>Sylvanas Windrunner allied with the Jailer after the events of Edge of Night, and the two have been working toward a common end for some time. As she fed the Maw with new souls, both she and the Jailer have grown more powerful.</p>
+                    <p>Zovaal better known as the Jailer, is one of the Eternal Ones of the Shadowlands. He rules the terrible realm known as...</p>
                 </article></a>
             </div>
         </section>
@@ -163,30 +164,30 @@
             <div class="featured">
                 <a href="pages/style.php?article=2">
                     <article class="section-article">
-                        <h3>Style Article</h3>
-                        <img src="https://unsplash.it/1920/1080" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, sint?</p>
+                        <h3>Anduin In His War Armor</h3>
+                        <img src="img/pages/style/WoW_Battle_for_Azeroth_Greymane_and_Anduin.jpg" alt="Anduin Wrynn">
+                        <p>Anduin Llane Wrynn is the King of Stormwind, High King of the Alliance, and...</p>
                     </article>
                 </a>
                 <a href="pages/travel.php?article=3">
                     <article class="section-article">
-                        <h3>Travel Article</h3>
-                        <img src="https://unsplash.it/1920/1080" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, sint?</p>
+                        <h3>Drenor's Nagrand</h3>
+                        <img src="img/pages/travel/nagrand-dreanor.jpg" alt="Nagrand">
+                        <p>Nagrand — orcish for "Land of Winds" — was formerly the homeland of the Frostwolf clan, and the meeting grounds of the orcish people...</p>
                     </article>
                 </a>
                 <a href="pages/weather.php?article=1">
                     <article class="section-article">
-                        <h3>Weather Article</h3>
-                        <img src="https://unsplash.it/1920/1080" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, sint?</p>
+                        <h3>Northrend snow</h3>
+                        <img src="img/pages/weather/northrend.jpg" alt="Northrend">
+                        <p>As you have seen in the Northrend snows won't stop! It's great time to take your...
                     </article>
                 </a>
                 <a href="pages/world.php?article=2">
                     <article class="section-article">
-                        <h3>World Article</h3>
-                        <img src="https://unsplash.it/1920/1080" alt="">  
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, sint?</p>                  
+                        <h3>The Battle for Azeroth has been resolved!</h3>
+                        <img src="img/pages/world/unnamed.jpg" alt=""> 
+                        <p>The conflict between the Alliance and the Horde...</p>                  
                     </article>
                 </a>
             </div>
@@ -199,35 +200,35 @@
             <div class="left">
                 <a href="pages/video.php?article=3">
                     <article class="section-article">
-                        <h3>Video Article 3</h3>
+                        <h3>Shadowlands</h3>
                         <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/s4gBChg6AII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img src="img/pages/video/shadowlands.jpg" alt="Shadowlands">
                         </div>
                     </article>
                 </a>
                 <a href="pages/video.php?article=1">
                     <article class="section-article">
-                        <h3>Video Article 1</h3>
-                        <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/s4gBChg6AII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3>Bastion</h3>
+                            <div class="video">
+                            <img src="img/pages/video/afterlives.jpg" alt="Bastion">
                         </div>
                     </article>
                 </a>
             </div>
             <div class="right">
-                <a href="pages/video.php?article=2">
+                <a href="https://www.youtube.com/watch?v=jSJr3dXZfcg&list=PLRxm39aUva_TOUWw-igDU5tofjZyRtZxw" target="_blank">
                     <article class="section-article">
-                        <h3>Video Article 2</h3>
+                        <h3>Battle For Azeroth</h3>
                         <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/s4gBChg6AII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img src="img/pages/video/batleforazeroth.jpg" alt="Battle For Azeroth">
                         </div>
                     </article>
                 </a>
                 <a href="pages/video.php?article=3">
                     <article class="section-article">
-                        <h3>Video Article 3</h3>
+                        <h3>Revendreth</h3>
                         <div class="video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/s4gBChg6AII" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <img src="img/pages/video/revendreth.jpg" alt="Revendreth">
                         </div>
                     </article>
                 </a>

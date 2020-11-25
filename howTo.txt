@@ -1,0 +1,11 @@
+how to deploy changes
+
+	git add .
+	git commit -m ""
+	git push heroku master
+	
+How to run website
+	
+	heroku ps:scale web=1
+	heroku open
+	
