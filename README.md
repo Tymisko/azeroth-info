@@ -1,1 +1,1 @@
-"# Azeroth Info" 
+# Azeroth Info
